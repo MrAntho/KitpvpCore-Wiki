@@ -1,0 +1,28 @@
+on join:
+	send player title "&7&lKit&c&lPvP" with subtitle "&cWe Hope You Enjoy Your Stay!" for 5 second
+	teleport player to {spawnpoint}
+
+command /discord [<text>]:
+	trigger:
+		if arg-1 is "link":
+			send " &9Discord Link - Link-Here "
+		else:
+			send "&cError Invalid args"
+
+command /setspawn:
+	permission: spawn.admin
+	permission message: &cError » &7No Permissions!
+	trigger:
+		set {spawnpoint} to player's location
+		send "&4&lYou have set the Global spawn point!"
+
+command /rank:
+	trigger:
+		send " &6Buycraft: Link-Here"
+
+command /bounty [<offline player>]:
+	trigger:
+		if arg-1 is set:
+			broadcast "&b%player% wants &c%arg-1% Dead" 
+		else:
+			send "&4Error > Invalid Args"
