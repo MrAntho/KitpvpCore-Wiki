@@ -1,2 +1,4 @@
 # KitpvpCore-Wiki
 /setspawn {spawn.admin}
+/kit2 {kit.2}
+/kit3 {kit.3}
