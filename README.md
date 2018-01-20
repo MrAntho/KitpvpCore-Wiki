@@ -1,2 +1,6 @@
 # KitpvpCore-Wiki
-KitpvpCore-Wiki Will help you
+Comamnds
+/rank
+/discord link
+/bounty {player}
+/setspawn
